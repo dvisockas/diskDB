@@ -216,7 +216,7 @@ exports.findAll = {
 
         test.equal(diskdb.articles.find({
           title: 'diskDB rocks',
-          published: 'yesterday'
+          published: 'today'
         }).length, 1, 'Should find one record');
 
         test.done();
